@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="timerFX/src"/>
+	<classpathentry kind="lib" path="D:/programowanie/libs_voice/marytts-5.2/marytts-5.2/lib/marytts-client-5.2-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="D:/programowanie/libs_voice/marytts-5.2/marytts-5.2/lib/marytts-lang-en-5.2.jar"/>
+	<classpathentry kind="lib" path="D:/programowanie/libs_voice/marytts-5.2/marytts-5.2/lib/marytts-runtime-5.2-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="D:/programowanie/libs_voice/marytts-5.2/marytts-5.2/lib/voice-cmu-slt-hsmm-5.2.jar"/>
+	<classpathentry kind="output" path="timerFX/bin"/>
+</classpath>

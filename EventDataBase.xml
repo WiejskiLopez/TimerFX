@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event>
+        <direction></direction>
+        <formation></formation>
+        <hide></hide>
+        <order>5</order>
+        <targetID></targetID>
+        <targetName></targetName>
+        <time>00:00:45</time>
+        <villageID></villageID>
+        <villageName>4</villageName>
+    </event>
+    <event>
+        <direction></direction>
+        <formation></formation>
+        <hide></hide>
+        <order>2</order>
+        <targetID></targetID>
+        <targetName></targetName>
+        <time>00:00:55</time>
+        <villageID></villageID>
+        <villageName>5</villageName>
+    </event>
+</events>
