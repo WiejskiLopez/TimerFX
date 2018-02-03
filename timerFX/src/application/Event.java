@@ -10,6 +10,7 @@ public class Event {
 	String formation;
 	String direction;
 	String order;
+	String speed;
 	String hide;
 	
 	public Event()
@@ -22,12 +23,13 @@ public class Event {
 		this.formation="";
 		this.direction="";
 		this.order="";
+		this.speed="";
 		this.hide="";
 	}
 	
 	
 	
-	public Event(String villageName,String villageID,String time,String targetName,String targetID,String formation,String direction,String order,String hide)
+	public Event(String villageName,String villageID,String time,String targetName,String targetID,String formation,String direction,String order,String speed,String hide)
 	{
 		this.villageName=villageName;
 		this.villageID=villageID;
@@ -37,6 +39,7 @@ public class Event {
 		this.formation=formation;
 		this.direction =direction;
 		this.order =order;
+		this.speed = speed;
 		this.hide=hide;
 	}
 	public String getVillageName()
@@ -174,12 +177,25 @@ public class Event {
 				event.getFormation().compareTo(this.formation)==0 &&
 				event.getDirection().compareTo(this.direction)==0 &&
 				event.getOrder().compareTo(this.order)==0 &&
+				event.getSpeed().compareTo(this.speed)==0 &&
 				event.getHide().compareTo(this.hide)==0 
 				)
 		{
 			return true;
 		}
 		return false;
+	}
+
+
+
+	public String getSpeed() {
+		return speed;
+	}
+
+
+
+	public void setSpeed(String speed) {
+		this.speed = speed;
 	}
 	
 }

@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <event>
-        <direction></direction>
+        <direction>Front</direction>
         <formation></formation>
-        <hide></hide>
-        <order>5</order>
-        <targetID></targetID>
+        <hide>No</hide>
+        <order>0</order>
+        <speed>1x</speed>
+        <targetID>111</targetID>
         <targetName></targetName>
-        <time>00:00:45</time>
+        <time>00:00:30</time>
         <villageID></villageID>
-        <villageName>4</villageName>
+        <villageName>a</villageName>
     </event>
     <event>
-        <direction></direction>
+        <direction>Front</direction>
         <formation></formation>
-        <hide></hide>
-        <order>2</order>
-        <targetID></targetID>
+        <hide>No</hide>
+        <order>0</order>
+        <speed>1x</speed>
+        <targetID>222</targetID>
         <targetName></targetName>
-        <time>00:00:55</time>
+        <time>00:00:40</time>
         <villageID></villageID>
-        <villageName>5</villageName>
+        <villageName>b</villageName>
     </event>
 </events>
